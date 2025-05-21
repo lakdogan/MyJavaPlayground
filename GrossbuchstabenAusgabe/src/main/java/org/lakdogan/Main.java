@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Alle Großbuchstaben von A bis Z: ");
 
         for (char buchstabe = 'A'; buchstabe <= 'Z'; buchstabe++) {
-            System.out.println(buchstabe + " ");
+            System.out.print(buchstabe + " ");
         }
 
         System.out.println();
