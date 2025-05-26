@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.lakdogan.zeiterfassungssystem.AppController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Button fx:id="btnStart" text="Start" onAction="#onStart"/>
+    <Button fx:id="btnPause" text="Pause" onAction="#onPause"/>
+    <Button fx:id="btnWeiter" text="Weiter" onAction="#onWeiter"/>
+    <Button fx:id="btnStopp" text="Stopp" onAction="#onStop"/>
+
+    <Label fx:id="labelStatus" text="Bereit"/>
+</VBox>
