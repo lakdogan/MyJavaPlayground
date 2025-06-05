@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.lakdogan.quizapp.controller.LoginController"
+            prefWidth="400" prefHeight="250"
+            stylesheets="@/css/bootstrapfx.css">
+    <children>
+        <Label text="Quiz Login" layoutX="140" layoutY="30" styleClass="h3"/>
+        <TextField fx:id="usernameField" layoutX="100" layoutY="90" promptText="Benutzername"/>
+        <PasswordField fx:id="passwordField" layoutX="100" layoutY="130" promptText="Passwort"/>
+        <Button text="Einloggen" layoutX="160" layoutY="180" onAction="#handleLogin"/>
+    </children>
+</AnchorPane>
+

@@ -1,0 +1,74 @@
+/* === Allgemeines Layout === */
+.root {
+    -fx-background-color: #1C1C1C; /* dunkler Hintergrund */
+    -fx-padding: 20;
+}
+
+/* === Anzeige-Feld (TextField oder Label) === */
+.text-display {
+    -fx-font-size: 48px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-alignment: center-right;
+    -fx-border-color: transparent;
+}
+
+/* === Alle Buttons (Grundform) === */
+.button {
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+    -fx-min-width: 65px;
+    -fx-min-height: 65px;
+    -fx-max-width: 65px;
+    -fx-max-height: 65px;
+    -fx-background-radius: 40;
+
+}
+
+/* === Graue Buttons (z. B. AC, %, +/-) === */
+.button-gray {
+    -fx-background-color: #505050;
+}
+
+/* === Orange Buttons (Operatoren wie +, =, ÷) === */
+.button-orange {
+    -fx-background-color: #FF9500;
+}
+
+/* === Dunkle Buttons (Ziffern) === */
+.button-dark {
+    -fx-background-color: #333333;
+}
+
+/* Allgemeine Form */
+.window-control {
+    -fx-background-radius: 10em;
+    -fx-min-width: 12px;
+    -fx-min-height: 12px;
+    -fx-max-width: 12px;
+    -fx-max-height: 12px;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+/* Farben */
+.red {
+    -fx-background-color: #FF5F56;
+}
+.yellow {
+    -fx-background-color: #FFBD2E;
+}
+.green {
+    -fx-background-color: #27C93F;
+}
+
+.calculator-root {
+    -fx-background-color: #1C1C1C;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #3C3C3C;
+    -fx-border-width: 1.5px;
+    -fx-background-insets: 0;
+    -fx-padding: 20;
+}
+
